@@ -1,37 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>MASFO Digital Pro</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masfo Global Connect Ltd | Building Africa’s Digital Future</title>
 
+<meta name="description" content="Masfo Global Connect Ltd is a global technology and innovation company delivering AI, blockchain, smart agriculture and digital trade systems across Africa and global markets.">
 
-  <!-- test-->
-<link rel="stylesheet" type="text/css" href="./assets/bootstrap/css/bootstrap.min.css">
+<link rel="icon" href="logo.jpg">
+
+<style>
+html{scroll-behavior:smooth;}
+
+body{
+margin:0;
+font-family:Segoe UI,Arial,sans-serif;
+background:#ffffff;
+color:#111827;
+line-height:1.7;
+}
+
+/* NAV */
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#ffffff;
+padding:18px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 15px rgba(0,0,0,0.05);
+z-index:1000;
+}
+nav a{
+text-decoration:none;
+color:#111;
+margin-left:20px;
+font-size:14px;
+font-weight:500;
+}
+nav a:hover{color:#C81E3A;}
+
+/* HERO */
+header{
+padding:180px 20px 120px;
+text-align:center;
+background:linear-gradient(to right,#ffffff,#f9fafb);
+}
+header h1{
+font-size:42px;
+max-width:800px;
+margin:auto;
+}
+header p{
+margin-top:20px;
+color:#6b7280;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:14px 30px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+margin-right:15px;
+}
+
+.btn-primary{
+background:#C81E3A;
+color:white;
+}
+
+.btn-primary:hover{
+background:#a5142b;
+}
+
+.btn-outline{
+border:2px solid #C81E3A;
+color:#C81E3A;
+}
+
+.btn-outline:hover{
+background:#C81E3A;
+color:white;
+}
+
+/* SECTION */
+section{
+padding:100px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:50px;
+font-size:32px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:16px;
+box-shadow:0 10px 25px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+/* CTA */
+.cta{
+background:#C81E3A;
+color:white;
+text-align:center;
+padding:100px 20px;
+}
+.cta a{
+background:white;
+color:#C81E3A;
+padding:14px 28px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* FOOTER */
+footer{
+background:#0B1B3A;
+color:#d1d5db;
+text-align:center;
+padding:40px 20px;
+margin-top:80px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:14px 18px;
+border-radius:50px;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+@media(max-width:768px){
+header h1{font-size:28px;}
+nav{padding:15px 20px;}
+}
+</style>
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-sm bg-light" style="color: #010851;">
-  <div class="container-fluid">
-    <a class="navbar-brand text-black" href="javascript:void(0)">MASFO DIGITAL PRO</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link text-black" href="index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-black" href="about.html">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-black" href="courses.html">COURSES</a>
-        </li>
-        <li class="nav-item">
+<nav>
+<div style="font-weight:bold;font-size:18px;">Masfo Global Connect</div>
+<div>
+<a href="#overview">Overview</a>
+<a href="#units">Units</a>
+<a href="#services">Services</a>
+<a href="#leadership">Leadership</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<header>
+<h1>Building Africa’s Digital Infrastructure for the Future</h1>
+<p>
+AI Systems • Blockchain Infrastructure • Smart Agriculture • Global Digital Trade
+</p>
+
+<a href="#contact" class="btn btn-primary">Partner With Us</a>
+<a href="company-profile.pdf" class="btn btn-outline">Download Company Profile</a>
+</header>
+
+<section id="overview">
+<h2>Company Overview</h2>
+<div class="card">
+Masfo Global Connect Ltd is a global technology and innovation company focused on developing intelligent digital systems, scalable infrastructure, and emerging technology solutions that connect African opportunities to global markets.
+</div>
+</section>
+
+<section id="units">
+<h2>Our Strategic Technology Units</h2>
+<div class="grid">
+<div class="card"><strong>Masfo AI & Technology</strong><br><br>Software systems, AI solutions and automation platforms.</div>
+<div class="card"><strong>Masfo Blockchain Lab</strong><br><br>Blockchain infrastructure, smart contracts and Web3 research.</div>
+<div class="card"><strong>Masfo AgriTech</strong><br><br>Smart farming systems and technology-driven agriculture.</div>
+<div class="card"><strong>Masfo Global Trade</strong><br><br>Cross-border digital commerce and market access systems.</div>
+</div>
+</section>
+
+<section id="services">
+<h2>Services & Solutions</h2>
+<div class="grid">
+<div class="card">Technology consulting & system architecture</div>
+<div class="card">Software & platform development</div>
+<div class="card">AI-enabled business systems</div>
+<div class="card">Digital transformation strategy</div>
+<div class="card">Capacity building & training</div>
+<div class="card">Innovation partnerships</div>
+</div>
+</section>
+
+<section id="leadership">
+<h2>Leadership</h2>
+<div class="card">
+<strong>Abdulrahman Ali</strong><br>
+Founder & Chief Executive Officer (CEO)<br><br>
+Provides strategic direction for innovation, technology development, and global partnerships.
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Information</h2>
+<div class="card">
+Masfo Global Connect Ltd<br><br>
+No. 10, Dr Muh’d Plaza, Opp. Maiduguri Stadium,<br>
+Maiduguri, Borno State, Nigeria<br><br>
+Phone: +234 9077 951 355<br>
+Email: info@masfoglobal.com
+</div>
+</section>
+
+<div class="cta">
+<h2>Let’s Build Africa’s Digital Future Together</h2>
+<br>
+<a href="mailto:info@masfoglobal.com">Start Partnership</a>
+</div>
+
+<footer>
+© 2026 Masfo Global Connect Ltd. All rights reserved.
+</footer>
+
+<a class="whatsapp" href="https://wa.me/2349077951355" target="_blank">Chat</a>
+
+</body>
+</html>li class="nav-item">
           <a class="nav-link text-black" href="javascript:void(0)">EXPLORE</a>
         </li>
       </ul>
@@ -267,3 +484,4 @@
 
 </body>
 </html>
+
